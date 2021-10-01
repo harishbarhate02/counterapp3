@@ -1,0 +1,2 @@
+rootProject.name = "counter app"
+include ':app'
