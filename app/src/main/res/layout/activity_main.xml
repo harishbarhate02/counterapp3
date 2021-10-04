@@ -36,17 +36,19 @@
 
     <Button
         android:id="@+id/button_reset"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/red1"
-        android:backgroundTint="#FF0000"
+
+        android:backgroundTint="#FD0505"
+        android:backgroundTintMode="screen"
         android:onClick="count_reset"
         android:text="@string/button_label_reset"
-        android:textColor="@android:color/white"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button_increment"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:laouyt_editor_absoluteY="506dp" />
     <Button
         android:id="@+id/button_decrement"
         android:layout_width="0dp"
